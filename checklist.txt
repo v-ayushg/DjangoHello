@@ -8,4 +8,4 @@ Here is the current deployment checklist:
 
 The first step is to install Gunicorn, a production-ready WSGI server for our project. Gunicorn replaces the Django local development server and–as with all Python packages–is installable via Pip.
 
-(.venv) $ python -m pip install gunicorn==20.1.0
+(.venv) $ python -m pip install gunicorn==21.2.0
