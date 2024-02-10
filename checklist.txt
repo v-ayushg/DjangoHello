@@ -1,0 +1,11 @@
+Here is the current deployment checklist:
+
+1.install Gunicorn as a WSGI server
+2.generate a requirements.txt file
+3.update ALLOWED_HOSTS in django_project/settings.py
+4.add a .dockerignore file
+
+
+The first step is to install Gunicorn, a production-ready WSGI server for our project. Gunicorn replaces the Django local development server and–as with all Python packages–is installable via Pip.
+
+(.venv) $ python -m pip install gunicorn==20.1.0
